@@ -1,0 +1,22 @@
+{
+	"schemaVersion": 1,
+	"id": "bot-phantom-blocker",
+	"version": "${version}",
+	"name": "Bot Phantom Blocker",
+	"description": "Setzt den Schlaftimer von Carpet-Bots regelmaessig zurueck, damit sie keine Phantome spawnen.",
+	"authors": ["Martin"],
+	"license": "CC0-1.0",
+	"environment": "server",
+	"entrypoints": {
+		"main": ["de.martin.botphantomblocker.BotPhantomBlocker"]
+	},
+	"mixins": ["bot-phantom-blocker.mixins.json"],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25"
+	},
+	"suggests": {
+		"carpet": "*"
+	}
+}
