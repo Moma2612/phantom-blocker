@@ -3,10 +3,15 @@
 	"id": "bot-phantom-blocker",
 	"version": "${version}",
 	"name": "Bot Phantom Blocker",
-	"description": "Setzt den Schlaftimer von Carpet-Bots regelmaessig zurueck, damit sie keine Phantome spawnen.",
+	"description": "Stops Carpet bots from spawning phantoms by resetting their rest timer. Real players are not affected.",
 	"authors": ["Martin"],
-	"license": "CC0-1.0",
-	"environment": "server",
+	"contact": {
+		"sources": "https://github.com/Moma2612/phantom-blocker",
+		"issues": "https://github.com/Moma2612/phantom-blocker/issues"
+	},
+	"license": "MIT",
+	"icon": "assets/bot-phantom-blocker/icon.png",
+	"environment": "*",
 	"entrypoints": {
 		"main": ["de.martin.botphantomblocker.BotPhantomBlocker"]
 	},
